@@ -28,99 +28,74 @@
 
 #content1 {
     display: flex;
-<<<<<<< HEAD
     padding: 5%;
 
 }
 
 #myVideo {
     width: 600px;
-=======
-    padding:3.5%;
-    
-}
-
-#myVideo{
-    width: 715px;
->>>>>>> master
-    height: 340px;
+    padding: 3.5%;
 
 }
 
-#myVideo2{
+#myVideo {
     width: 715px;
     height: 340px;
-    margin-top:-2.5%;
+
+}
+
+#myVideo2 {
+    width: 715px;
+    height: 340px;
+    margin-top: -2.5%;
 
 }
 
 
-#eleverne {padding:4%;
-margin-top:-4%;}
+#eleverne {
+    padding: 4%;
+    margin-top: -4%;
+}
 
 #eleverne p {
-<<<<<<< HEAD
     padding-right: 5%;
     font-size: 1.3em;
-=======
-    font-size:1.3em;
->>>>>>> master
+    font-size: 1.3em;
+
 }
 
 #eleverne h3 {
-
-<<<<<<< HEAD
     font-size: 1.7em;
     padding-top: 3%;
-
-
-
     justify-content: center;
 }
-=======
- font-size: 1.7em;
-   padding-top:3%;
-justify-content: center;}
->>>>>>> master
+
+
 
 
 #eleverne2 {
-    
-margin-top:-1%;}
+    margin-top: -1%;
+}
 
 
 #eleverne2 p {
-<<<<<<< HEAD
     padding-left: 5%;
     font-size: 1.3em;
+    font-size: 1.3em;
 
-=======
-
-    font-size:1.3em;
-    
->>>>>>> master
 }
 
 #eleverne2 h3 {
 
-<<<<<<< HEAD
     font-size: 1.7em;
     padding-top: 3%;
     padding-left: 5%;
-=======
- font-size: 1.7em;
-   padding-top:3%;
->>>>>>> master
-
-<<<<<<< HEAD
-
-
-
+    font-size: 1.7em;
+    padding-top: 3%;
     justify-content: center;
 }
-=======
-justify-content: center;}
->>>>>>> master
+
+
 
 /*------------ Her slutter CSS for interviews ------------*/
 
