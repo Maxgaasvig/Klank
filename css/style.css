@@ -12,6 +12,9 @@
 
 h1 {text-align: center;
 padding-top:5%;}
-h3 {padding-top:5%;}
+h3 {   font-size: 2em;
+    padding: 1em 0em;
+    align-items:  center;
+    padding-bottom: 5%;}
 
-p {padding-top:10%;}
+p {padding-top:15%;}
