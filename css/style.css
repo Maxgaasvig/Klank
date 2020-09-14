@@ -6,6 +6,11 @@
 
 /*------------ Her starter CSS for intro video ------------*/
 
+#introvideo {
+    width: 100%;
+    height: 750px;
+}
+
 /*------------ Her slutter CSS for intro video ------------*/
 
 
@@ -23,49 +28,51 @@
 
 #content1 {
     display: flex;
-    padding:5%;
-    
+    padding: 5%;
+
 }
 
-#myVideo{
+#myVideo {
     width: 600px;
     height: 340px;
 }
 
 
 #eleverne p {
-    padding-right:5%;
-    font-size:1.3em;
+    padding-right: 5%;
+    font-size: 1.3em;
 }
 
 #eleverne h3 {
 
- font-size: 1.7em;
-   padding-top:3%;
-  
-    
-    
-justify-content: center;}
+    font-size: 1.7em;
+    padding-top: 3%;
+
+
+
+    justify-content: center;
+}
 
 
 
 
 #eleverne2 p {
-    padding-left:5%;
-    font-size:1.3em;
-    
+    padding-left: 5%;
+    font-size: 1.3em;
+
 }
 
 #eleverne2 h3 {
 
- font-size: 1.7em;
-   padding-top:3%;
-    padding-left:5%;
+    font-size: 1.7em;
+    padding-top: 3%;
+    padding-left: 5%;
 
-  
-    
-    
-justify-content: center;}
+
+
+
+    justify-content: center;
+}
 
 /*------------ Her slutter CSS for interviews ------------*/
 
