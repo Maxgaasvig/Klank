@@ -10,11 +10,40 @@
     
 }
 
-h1 {text-align: center;
-padding-top:5%;}
-h3 {   font-size: 2em;
-    padding: 1em 0em;
-    align-items:  center;
-    padding-bottom: 5%;}
 
-p {padding-top:15%;}
+#eleverne p {
+    padding-right:5%;
+    font-size:1.3em;
+}
+
+#eleverne h3 {
+
+ font-size: 1.7em;
+   padding-top:3%;
+  
+    
+    
+justify-content: center;}
+
+
+
+
+#eleverne2 p {
+    padding-left:5%;
+    font-size:1.3em;
+    
+}
+
+#eleverne2 h3 {
+
+ font-size: 1.7em;
+   padding-top:3%;
+    padding-left:5%;
+
+  
+    
+    
+justify-content: center;}
+
+
+
