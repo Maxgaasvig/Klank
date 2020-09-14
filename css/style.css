@@ -3,3 +3,18 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
+
+#content1 {
+    display: flex;
+    padding:5%;
+    
+}
+
+h1 {text-align: center;
+padding-top:5%;}
+h3 {   font-size: 2em;
+    padding: 1em 0em;
+    align-items:  center;
+    padding-bottom: 5%;}
+
+p {padding-top:15%;}
