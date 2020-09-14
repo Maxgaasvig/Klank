@@ -58,10 +58,17 @@
 }
 
 #eleverne p {
+<<<<<<< HEAD
     padding-right: 5%;
     font-size: 1.3em;
     font-size: 1.3em;
 
+=======
+
+    padding-right: 5%;
+    font-size: 1.3em;
+    font-size: 1.3em;
+>>>>>>> master
 }
 
 #eleverne h3 {
@@ -69,8 +76,11 @@
     padding-top: 3%;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
 
 
 #eleverne2 {
@@ -81,11 +91,16 @@
 #eleverne2 p {
     padding-left: 5%;
     font-size: 1.3em;
+<<<<<<< HEAD
     font-size: 1.3em;
+=======
+    
+>>>>>>> master
 
 }
 
 #eleverne2 h3 {
+<<<<<<< HEAD
 
     font-size: 1.7em;
     padding-top: 3%;
@@ -96,6 +111,13 @@
 }
 
 
+=======
+    font-size: 1.7em;
+    padding-top: 3%;
+    padding-left: 5%;
+    justify-content: center;
+}
+>>>>>>> master
 
 /*------------ Her slutter CSS for interviews ------------*/
 
