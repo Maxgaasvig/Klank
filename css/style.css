@@ -33,20 +33,21 @@
 
 #myVideo {
     width: 600px;
-    padding: 3.5%;
+    padding: 3%;
 
 }
 
 #myVideo {
     width: 715px;
     height: 340px;
+    padding:0%;
 
 }
 
 #myVideo2 {
     width: 715px;
     height: 340px;
-    margin-top: -2.5%;
+    margin-top: -4%;
 
 }
 
@@ -81,7 +82,7 @@
 
 #eleverne2 h3 {
     font-size: 1.7em;
-    padding-left: 5%;
+ 
     padding-top: 3%;
     justify-content: center;
 }
