@@ -5,6 +5,7 @@
  **/
 
 body {
+    margin: auto;
 }
 
 /*------------ Her starter CSS for intro video ------------*/
@@ -22,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 4%;
+    padding-bottom: 5%;    
 }
 
 #kort img {
@@ -168,8 +170,27 @@ font-size:1.7em;}
 
 /*------------ Her starter CSS for footer ------------*/
 
+#optagelse h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#optagelse h2 {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 3%;
+}
+
+#optagelse p {
+    font-size: 1.2em;
+    text-align: center;
+        
+}
+
+
 /*------------ Her slutter CSS for footer ------------*/
 
+<<<<<<< HEAD
 
 
 footer {
@@ -274,3 +295,5 @@ a.smoothScroll {
 /*------------ Her starter CSS for footer ------------*/
 
 
+=======
+>>>>>>> master
