@@ -51,11 +51,13 @@ body {
     display: flex;
     padding: 3.5%;
 
+
 }
 
 #content2 {
     display: flex;
     padding: 3.5%;
+  
 
 }
 
@@ -68,7 +70,7 @@ body {
 #myVideo {
     width: 715px;
     height: 340px;
-    padding: 0%;
+    padding: 1.5%;
 
 }
 
@@ -83,6 +85,8 @@ body {
 #eleverne {
     padding: 4%;
     margin-top: -4%;
+  
+    
 }
 
 #eleverne p {
@@ -112,6 +116,7 @@ body {
     font-size: 1.7em;
     margin-top:auto;
     justify-content: center;
+    
 }
 
 
@@ -241,7 +246,7 @@ display: block;
   padding: 20px 40px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 1.5em;
