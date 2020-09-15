@@ -6,6 +6,8 @@
 
 body {
     margin: auto;
+    font-family: 'Raleway', cursive;
+
 }
 
 /*------------ Her starter CSS for intro video ------------*/
@@ -43,7 +45,7 @@ body {
 /*------------ Her slutter CSS for boomerang 1 ------------*/
 
 
-/*------------ Her starter CSS for interviews ------------*/
+/*------------ Her starter CSS for interviews med lærer og elev ------------*/
 
 #content1 {
     display: flex;
@@ -108,8 +110,7 @@ body {
 
 #eleverne2 h3 {
     font-size: 1.7em;
-
-    padding-top: 3%;
+    margin-top:auto;
     justify-content: center;
 }
 
