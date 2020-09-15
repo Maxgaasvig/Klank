@@ -5,9 +5,14 @@
 console.log('JavaScript from js/js.js: up and running!');
 
 // Tjek at DOM er indlæst
-    
-    
 
+
+// Disables the controls from the boomerang videos that autoplays and runs in loops.
+var boomrang1 = document.getElementById("boomerang1");
+boomrang1.controls =false;
+
+var boomrang2 = document.getElementById("boomerang2");
+boomrang2.controls =false;
 
 
 /*
@@ -96,7 +101,7 @@ function scrollFunction() {
     }
 }
 
-window.onscroll = function() {
+window.onscroll = function () {
     scrollFunction();
 }
 
