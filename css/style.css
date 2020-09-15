@@ -112,7 +112,26 @@
 
 
 #forventninger h2 {padding-top:5%;
-justify-content: center;}
+text-align: center;
+font-size:1.7em;}
+
+#myVideo3 {
+    width: 715px;
+    height: 340px;
+    margin-top: 4%;
+
+}
+
+#forventninger {
+    display:flex;
+    padding:4%;
+}
+
+#forventninger p {font-size:1.3em;
+    padding-top:40%;
+}
+
+#forventninger h2 {padding-left:85%;}
 
 /*------------ Her slutter CSS for forventninger ------------*/
 
