@@ -184,9 +184,11 @@ font-size:1.7em;}
 #optagelse p {
     font-size: 1.2em;
     text-align: center;
-        
+        width: 50%;
+    margin: auto;
+    padding-bottom: 5%;
 }
-#
+
 
 /*------------ Her slutter CSS for optagelse ------------*/
 
