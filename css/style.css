@@ -146,8 +146,16 @@ font-size:1.7em;}
 }
 
 #forventninger p {font-size:1.3em;
-    padding-top:19%;
+
 }
+
+#forventningerContent h2 {
+    text-align: left;
+
+}
+
+#forventningerContent {padding-top:6%;}
+
 
 
 
