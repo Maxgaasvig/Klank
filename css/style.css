@@ -4,6 +4,10 @@
  * further development: meyer reset perhaps?
  **/
 
+body {
+    background-color:forestgreen;
+}
+
 /*------------ Her starter CSS for intro video ------------*/
 
 #introvideo {
@@ -30,12 +34,23 @@
 
 /*------------ Her starter CSS for boomerang 1 ------------*/
 
+#boomerang1 {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
 /*------------ Her slutter CSS for boomerang 1 ------------*/
 
 
 /*------------ Her starter CSS for interviews ------------*/
 
 #content1 {
+    display: flex;
+    padding: 3.5%;
+
+}
+
+#content2 {
     display: flex;
     padding: 3.5%;
 
@@ -105,6 +120,10 @@
 
 /*------------ Her starter CSS for boomerang 2 ------------*/
 
+#boomerang2 {
+    width: 100%;
+    padding-top: 5%;
+}
 /*------------ Her slutter CSS for boomerang 2 ------------*/
 
 
