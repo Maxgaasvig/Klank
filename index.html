@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Adventure-linjen - Klank Efterskole</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 
@@ -17,19 +17,29 @@
     <section>
 
 
-        <video id="introvideo"  autoplay="autoplay" controls muted>
+        <video id="introvideo" controls>
             <source src="video/WebDocFilm.mp4" type="video/mp4">
 
-        <video id="introvideo" controls>
-            <source src="video/WebDocFilmMedCrop.mp4" type="video/mp4">
+            <video id="introvideo" controls>
+                <source src="video/WebDocFilmMedCrop.mp4" type="video/mp4">
 
-        </video>
+            </video>
         </video>
     </section>
 
     <section id="kort">
         <img src=images/kort.png alt="billede af kort">
+        <a href="#eleverne"><button class ="mapButtons" id="mapButton1"></button></a>
+        <a href="#eleverne"><button class ="mapButtons" id="mapButton2"></button></a>
+        <a href="#forventninger"><button class ="mapButtons" id="mapButton3"></button></a>
+        
     </section>
+    
+<!--
+    <div id="mapButtons">
+        
+    </div>
+-->
 
     <section>
         <video id="boomerang1" loop autoplay="autoplay" controls muted>
@@ -48,10 +58,7 @@
 
 
         <video id="myVideo">
-            <source src="video/WebDocFilm.mp4" type="video/mp4">
-            <!-- below: alternative video formats -->
-            <!-- source src="mov_bbb.ogg" type="video/ogg" -->
-            Your browser does not support HTML5 video.
+            <source src="video/WebDocFilm.mp4" type="video/mp4">          
         </video>
 
     </article>
@@ -61,13 +68,10 @@
 
         <video id="myVideo2">
             <source src="video/WebDocFilm.mp4" type="video/mp4">
-            <!-- below: alternative video formats -->
-            <!-- source src="mov_bbb.ogg" type="video/ogg" -->
-            Your browser does not support HTML5 video.
         </video>
 
         <section id="eleverne2">
-           
+
             <h3> Lærer på Adventure</h3>
             <p><em>"På Klank er er jeg så tæskeheldig, at undervise i adventure <br>og have en masse aktive og fede valgfag, hvilket jeg elsker! <br> Gennem undervisningen vil jeg gerne inspirere eleverne til <br>at kunne tage kampen op iført en kæmpe ja-hat og opnå følelsen <br> af at mestre." </em> <br> <br>- Signe Skovgaard-Hansen </p>
         </section>
@@ -96,13 +100,13 @@
     </article>
     <section id="optagelse">
         <img src="images/logo.png" class="logo">
-        <h2> 
-        KOM PÅ KLANK OG OPLEV HVAD <br> DET VIL SIGE AT GÅ PÅ <br> EFTERSKOLE </h2>
+        <h2>
+            KOM PÅ KLANK OG OPLEV HVAD <br> DET VIL SIGE AT GÅ PÅ <br> EFTERSKOLE </h2>
         <p> Det er vores erfaring, at det altid er godt for begge parter at have mødt hinanden. Så får vi en mulighed for at tale med hinanden, og du og dine forældre kan danne jer et indtryk af det, der karakteriserer netop vores skole. <br><br>
             For at blive elev på skolen skal du først have besøgt eller haft en samtale på skolen sammen med dine forældre. </p> <br> <br>
         <p> Hvis du får lyst til at besøge os eller tilmelde dig til Efterskolen, så tryk på nedenstående. </p>
         <div>
-        <button class="button button2" target="_blank" onclick="window.open('https://klank-efterskole.dk/om-skolen/optagelse/tilmelding')">KLIK HER</button>
+            <button class="button button2" target="_blank" onclick="window.open('https://klank-efterskole.dk/om-skolen/optagelse/tilmelding')">KLIK HER</button>
         </div>
     </section>
 
@@ -138,9 +142,9 @@
     <!-- .footer -->
 
 
-   <button onclick="topFunction()" id="scrollbutton" title="Go to Top"><img src="images/kort-icon.png" class="kort-icon" alt="Back to Map"><br> Back to Map </button>
-   
-   
+    <button onclick="topFunction()" id="scrollbutton" title="Go to Top"><img src="images/kort-icon.png" class="kort-icon" alt="Back to Map"><br> Back to Map </button>
+
+
     <!-- scripts -->
     <script src="js/js.js"></script>
 </body>
