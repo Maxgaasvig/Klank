@@ -217,7 +217,9 @@ body {
 #optagelse p {
     font-size: 1.2em;
     text-align: center;
-        
+        width: 40%;
+    margin:auto;
+    justify-content: center;
 }
 
 .button {
@@ -231,8 +233,12 @@ body {
   cursor: pointer;
 }
 
-.button2 {background-color: #008CBA;
-margin: auto;} /* Blue */
+.button2 {background-color: #008CBA;} /* Blue */
+
+#optagelse div {
+    padding-top: 3%;
+    text-align: center;
+}
 
 
 /*------------ Her slutter CSS for footer ------------*/
@@ -243,7 +249,6 @@ margin: auto;} /* Blue */
     background-color: #333333;
     border-top: 2px solid #9c845f;
     padding: 2px;
-   
 }
 
     .fa {
