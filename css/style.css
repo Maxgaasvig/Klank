@@ -190,10 +190,8 @@ font-size:1.7em;}
 
 /*------------ Her slutter CSS for footer ------------*/
 
-<<<<<<< HEAD
 
-
-footer {
+#footer {
     height: auto;
     background-color: #333333;
     border-top: 2px solid #9c845f;
