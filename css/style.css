@@ -212,40 +212,49 @@ font-size:1.7em;}
   
 }
 
+.fa-youtube {
+padding: 20px;
+  font-size:20px;
+  width: 20px;
+    height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  border-radius: 50%;
+
+}
+
 
 a.fa.fa-instagram::before {
     font-size:1.4em;
 
 }
 
-a.fa.fa-twitter::before {
+a.fa.fa-youtube:before {
     font-size:1.4em;
+
 }
 
 a.fa.fa-facebook::before {
     font-size:1.4em;
 }
 
-a.fa.fa-linkedin::before {
-    font-size:1.4em;
-}
+
 
 
 #sociale_medier_ikoner {text-align: center;
   
 }
 
-/*
-#sociale_medier_ikoner_tekst h3 {
-    text-align: center;
-    margin-top:4%;
-font-size:2em;
-color:black;}
-*/
 
 .fa:hover {
     opacity: 0.7;
 }
+
+.fa-youtube:hover {
+    opacity: 0.7;
+}
+
 
 .fa-facebook {
   background: #9c845e;
@@ -254,17 +263,8 @@ color:black;}
  
 }
 
-.fa-twitter {
-  background: #9c845e;
-  color: white;
-}
-
-
-
-.fa-linkedin {
-  background: #9c845e;
-  color: white;
-}
+.fa-youtube {  background: #9c845e;
+  color: white;}
 
 
 .fa-instagram {
@@ -272,22 +272,6 @@ color:black;}
   color: white;
 }
 
-
-/*
-a.smoothScroll {
-    display:inline;
-    padding: 12px 16px;
-}
-*/
-
-
-
-/*
-.footer-social-icons img{
- display: inline;
-    margin-right:-50px;
-}
-*/
 
 
 /*------------ Her starter CSS for footer ------------*/
