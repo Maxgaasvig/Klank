@@ -9,7 +9,7 @@ console.log('JavaScript from js/js.js: up and running!');
     // ... your code here ...
     
     // ... end ...
-});
+
 
 
 let myVideo = document.getElementById("myVideo");
