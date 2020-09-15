@@ -4,6 +4,9 @@
  * further development: meyer reset perhaps?
  **/
 
+body {
+}
+
 /*------------ Her starter CSS for intro video ------------*/
 
 #introvideo {
@@ -30,12 +33,23 @@
 
 /*------------ Her starter CSS for boomerang 1 ------------*/
 
+#boomerang1 {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
 /*------------ Her slutter CSS for boomerang 1 ------------*/
 
 
 /*------------ Her starter CSS for interviews ------------*/
 
 #content1 {
+    display: flex;
+    padding: 3.5%;
+
+}
+
+#content2 {
     display: flex;
     padding: 3.5%;
 
@@ -105,10 +119,45 @@
 
 /*------------ Her starter CSS for boomerang 2 ------------*/
 
+#boomerang2 {
+    width: 100%;
+    padding-top: 5%;
+}
 /*------------ Her slutter CSS for boomerang 2 ------------*/
 
 
 /*------------ Her starter CSS for forventninger ------------*/
+
+
+#forventninger h2 {padding-top:5%;
+text-align: center;
+font-size:1.7em;}
+
+#myVideo3 {
+    width: 715px;
+    height: 340px;
+    margin-top: 4%;
+
+}
+
+#forventninger {
+    display:flex;
+    padding:4%;
+}
+
+#forventninger p {font-size:1.3em;
+
+}
+
+#forventningerContent h2 {
+    text-align: left;
+
+}
+
+#forventningerContent {padding-top:6%;}
+
+
+
 
 /*------------ Her slutter CSS for forventninger ------------*/
 
