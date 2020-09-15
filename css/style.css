@@ -169,3 +169,108 @@ font-size:1.7em;}
 /*------------ Her starter CSS for footer ------------*/
 
 /*------------ Her slutter CSS for footer ------------*/
+
+
+
+footer {
+    height: auto;
+    background-color: #333333;
+    border-top: 2px solid #9c845f;
+    padding: 2px;
+   
+}
+
+    .fa {
+ padding: 20px;
+  font-size:20px;
+  width: 20px;
+    height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  border-radius: 50%;
+
+  
+}
+
+
+a.fa.fa-instagram::before {
+    font-size:1.4em;
+
+}
+
+a.fa.fa-twitter::before {
+    font-size:1.4em;
+}
+
+a.fa.fa-facebook::before {
+    font-size:1.4em;
+}
+
+a.fa.fa-linkedin::before {
+    font-size:1.4em;
+}
+
+
+#sociale_medier_ikoner {text-align: center;
+  
+}
+
+/*
+#sociale_medier_ikoner_tekst h3 {
+    text-align: center;
+    margin-top:4%;
+font-size:2em;
+color:black;}
+*/
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #9c845e;
+  color: white;
+ 
+ 
+}
+
+.fa-twitter {
+  background: #9c845e;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #9c845e;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #9c845e;
+  color: white;
+}
+
+
+/*
+a.smoothScroll {
+    display:inline;
+    padding: 12px 16px;
+}
+*/
+
+
+
+/*
+.footer-social-icons img{
+ display: inline;
+    margin-right:-50px;
+}
+*/
+
+
+/*------------ Her starter CSS for footer ------------*/
+
+
