@@ -193,15 +193,17 @@ background-position: center;}
     font-size: 16px;
     border: none;
     outline: none;
-    background-color: white;
+    background-color: transparent;
     color: black;
     cursor: pointer;
     padding: 10px;
     border-radius: 2px;
 }
 
+
+
 #scrollbutton:hover {
-    background-color: #555;
+    opacity: 0.7;
 }
 
 /*------------ Her slutter CSS for back to top ------------*/
@@ -285,6 +287,9 @@ background-position: center;}
 /*------------ Her slutter CSS for optagelse ------------*/
 
 /*------------ Her starter CSS for footer ------------*/
+
+
+.kort-icon {width:130px;}
 
 #footer {
     height: auto;
