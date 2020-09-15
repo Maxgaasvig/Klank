@@ -5,6 +5,8 @@
 console.log('JavaScript from js/js.js: up and running!');
 
 // Tjek at DOM er indlæst
+    
+    
 
 
 
