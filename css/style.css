@@ -7,8 +7,9 @@
 body {
     margin: auto;
     font-family: 'Raleway', cursive;
-
-}
+    background-image: url(/images/baggrund.jpg);
+    background-size: contain;
+background-position: center;}
 
 /*------------ Her starter CSS for intro video ------------*/
 
@@ -85,8 +86,7 @@ body {
 #eleverne {
     padding: 4%;
     margin-top: -4%;
-  
-    
+    background-color: #eeeeee;    
 }
 
 #eleverne p {
@@ -99,11 +99,13 @@ body {
     font-size: 1.7em;
     padding-top: 3%;
     justify-content: center;
+       
 }
 
 
 #eleverne2 {
     margin-top: -1%;
+    background-color: #eeeeee;
 }
 
 
@@ -242,7 +244,6 @@ body {
 }
 
 .button {
-<<<<<<< HEAD
   border: none;
   color: white;
   padding: 20px 40px;
@@ -252,7 +253,6 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 1.5em;
-=======
     border: none;
     color: white;
     padding: 20px 40px;
@@ -262,7 +262,6 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 1.5em;
->>>>>>> master
 }
 
 .button:hover {
