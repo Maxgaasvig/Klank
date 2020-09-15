@@ -12,7 +12,7 @@ body {
 
 #introvideo {
     width: 100%;
-}    
+}
 
 /*------------ Her slutter CSS for intro video ------------*/
 
@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 4%;
-    padding-bottom: 5%;    
+    padding-bottom: 5%;
 }
 
 #kort img {
@@ -66,7 +66,7 @@ body {
 #myVideo {
     width: 715px;
     height: 340px;
-    padding:0%;
+    padding: 0%;
 
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 #eleverne p {
-   /* padding-right: 5%; */
+    /* padding-right: 5%; */
     font-size: 1.3em;
 }
 
@@ -108,13 +108,13 @@ body {
 
 #eleverne2 h3 {
     font-size: 1.7em;
- 
+
     padding-top: 3%;
     justify-content: center;
 }
 
 
-    
+
 
 /*------------ Her slutter CSS for interviews ------------*/
 
@@ -125,15 +125,18 @@ body {
     width: 100%;
     padding-top: 5%;
 }
+
 /*------------ Her slutter CSS for boomerang 2 ------------*/
 
 
 /*------------ Her starter CSS for forventninger ------------*/
 
 
-#forventninger h2 {padding-top:5%;
-text-align: center;
-font-size:1.7em;}
+#forventninger h2 {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 1.7em;
+}
 
 #myVideo3 {
     width: 715px;
@@ -143,11 +146,12 @@ font-size:1.7em;}
 }
 
 #forventninger {
-    display:flex;
-    padding:4%;
+    display: flex;
+    padding: 4%;
 }
 
-#forventninger p {font-size:1.3em;
+#forventninger p {
+    font-size: 1.3em;
 
 }
 
@@ -156,7 +160,9 @@ font-size:1.7em;}
 
 }
 
-#forventningerContent {padding-top:6%;}
+#forventningerContent {
+    padding-top: 6%;
+}
 
 
 
@@ -166,9 +172,14 @@ font-size:1.7em;}
 
 /*------------ Her starter CSS for adventurerace ------------*/
 
+
 /*------------ Her slutter CSS for adventurerace ------------*/
 
-/*------------ Her starter CSS for footer ------------*/
+/*------------ Her starter CSS for optagelse ------------*/
+
+#optagelse {
+    padding-bottom: 5%;
+}
 
 #optagelse h1 {
     font-size: 3em;
@@ -184,32 +195,55 @@ font-size:1.7em;}
 #optagelse p {
     font-size: 1.2em;
     text-align: center;
-        
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
 
-/*------------ Her slutter CSS for footer ------------*/
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #008CBA;
+    
+}
+
+/* Blue */
 
 
-#footer {
+/*------------ Her slutter CSS for optagelse ------------*/
+
+
+
+
+footer {
     height: auto;
     background-color: #333333;
     border-top: 2px solid #9c845f;
     padding: 2px;
-   
+
 }
 
-    .fa {
- padding: 20px;
-  font-size:20px;
-  width: 20px;
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
     height: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px 2px;
-  border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+    border-radius: 50%;
 
-  
+
 }
 
 .fa-youtube {
@@ -226,24 +260,36 @@ padding: 20px;
 
 
 a.fa.fa-instagram::before {
-    font-size:1.4em;
+    font-size: 1.4em;
 
 }
 
+<<<<<<< HEAD
+a.fa.fa-twitter::before {
+    font-size: 1.4em;
+=======
 a.fa.fa-youtube:before {
     font-size:1.4em;
 
+>>>>>>> master
 }
 
 a.fa.fa-facebook::before {
-    font-size:1.4em;
+    font-size: 1.4em;
 }
 
+<<<<<<< HEAD
+a.fa.fa-linkedin::before {
+    font-size: 1.4em;
+}
+=======
+
+>>>>>>> master
 
 
+#sociale_medier_ikoner {
+    text-align: center;
 
-#sociale_medier_ikoner {text-align: center;
-  
 }
 
 
@@ -257,25 +303,58 @@ a.fa.fa-facebook::before {
 
 
 .fa-facebook {
+<<<<<<< HEAD
   background: #9c845e;
   color: blue;
  
  
+=======
+    background: #9c845e;
+    color: white;
+
+
 }
 
+<<<<<<< HEAD
+.fa-twitter {
+    background: #9c845e;
+    color: white;
+>>>>>>> master
+}
+
+
+
+.fa-linkedin {
+    background: #9c845e;
+    color: white;
+}
+=======
 .fa-youtube {  background: #9c845e;
   color: white;}
+>>>>>>> master
 
 
 .fa-instagram {
-  background: #9c845e;
-  color: white;
+    background: #9c845e;
+    color: white;
 }
 
 
+/*
+a.smoothScroll {
+    display:inline;
+    padding: 12px 16px;
+}
+*/
 
-/*------------ Her starter CSS for footer ------------*/
 
 
-=======
->>>>>>> master
+/*
+.footer-social-icons img{
+ display: inline;
+    margin-right:-50px;
+}
+*/
+
+
+/*------------ Her slutter CSS for footer ------------*/
