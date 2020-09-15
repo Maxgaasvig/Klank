@@ -191,15 +191,17 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    background-color: white;
+    background-color: transparent;
     color: black;
     cursor: pointer;
     padding: 10px;
     border-radius: 2px;
 }
 
+
+
 #scrollbutton:hover {
-    background-color: #555;
+    opacity: 0.7;
 }
 
 /*------------ Her slutter CSS for back to top ------------*/
@@ -242,17 +244,7 @@ body {
 }
 
 .button {
-<<<<<<< HEAD
-  border: none;
-  color: white;
-  padding: 20px 40px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 1.5em;
-=======
+
     border: none;
     color: white;
     padding: 20px 40px;
@@ -262,7 +254,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 1.5em;
->>>>>>> master
+
 }
 
 .button:hover {
@@ -286,6 +278,9 @@ body {
 /*------------ Her slutter CSS for optagelse ------------*/
 
 /*------------ Her starter CSS for footer ------------*/
+
+
+.kort-icon {width:130px;}
 
 #footer {
     height: auto;
