@@ -246,23 +246,45 @@ footer {
 
 }
 
+.fa-youtube {
+padding: 20px;
+  font-size:20px;
+  width: 20px;
+    height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 2px;
+  border-radius: 50%;
+
+}
+
 
 a.fa.fa-instagram::before {
     font-size: 1.4em;
 
 }
 
+<<<<<<< HEAD
 a.fa.fa-twitter::before {
     font-size: 1.4em;
+=======
+a.fa.fa-youtube:before {
+    font-size:1.4em;
+
+>>>>>>> master
 }
 
 a.fa.fa-facebook::before {
     font-size: 1.4em;
 }
 
+<<<<<<< HEAD
 a.fa.fa-linkedin::before {
     font-size: 1.4em;
 }
+=======
+
+>>>>>>> master
 
 
 #sociale_medier_ikoner {
@@ -270,17 +292,15 @@ a.fa.fa-linkedin::before {
 
 }
 
-/*
-#sociale_medier_ikoner_tekst h3 {
-    text-align: center;
-    margin-top:4%;
-font-size:2em;
-color:black;}
-*/
 
 .fa:hover {
     opacity: 0.7;
 }
+
+.fa-youtube:hover {
+    opacity: 0.7;
+}
+
 
 .fa-facebook {
     background: #9c845e;
@@ -289,6 +309,7 @@ color:black;}
 
 }
 
+<<<<<<< HEAD
 .fa-twitter {
     background: #9c845e;
     color: white;
@@ -300,6 +321,10 @@ color:black;}
     background: #9c845e;
     color: white;
 }
+=======
+.fa-youtube {  background: #9c845e;
+  color: white;}
+>>>>>>> master
 
 
 .fa-instagram {
