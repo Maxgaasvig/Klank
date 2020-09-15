@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 4%;
-    padding-bottom: 5%;    
+    padding-bottom: 5%;
 }
 
 #kort img {
@@ -110,7 +110,7 @@ body {
 
 #eleverne2 h3 {
     font-size: 1.7em;
-    margin-top:auto;
+    margin-top: auto;
     justify-content: center;
 }
 
@@ -175,38 +175,39 @@ body {
 
 /*------------ Her slutter CSS for adventurerace ------------*/
 
-/*------------ Her starter CSS for buttons ------------*/
+/*------------ Her starter CSS for back to top ------------*/
 
 #scrollbutton {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     outline: none;
     background-color: white;
     color: black;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 2px;
 }
 
 #scrollbutton:hover {
     background-color: #555;
 }
 
-/*------------ Her slutter CSS for buttons ------------*/
+/*------------ Her slutter CSS for back to top ------------*/
 
-/*------------ Her starter CSS for footer ------------*/
+/*------------ Her starter CSS for optagelse ------------*/
 
-.logo {width:500px;
-display: block;
-    margin-left:auto;
-    margin-right:auto;
+.logo {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
- }
+}
 
 
 #optagelse {
@@ -220,7 +221,7 @@ display: block;
     padding-bottom: 3%;
     line-height: 1.4em;
     font-family: 'Raleway', sans-serif;
-    margin-top:-5%;
+    margin-top: -5%;
     justify-content: center;
 
 }
@@ -228,31 +229,35 @@ display: block;
 #optagelse p {
     font-size: 1.2em;
     text-align: center;
-        width: 40%;
-    margin:auto;
-    margin-top:-2%;
+    width: 40%;
+    margin: auto;
+    margin-top: -2%;
     line-height: 1.4em;
     justify-content: center;
 }
 
 .button {
-  border: none;
-  color: white;
-  padding: 20px 40px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 1.5em;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1.5em;
 }
 
-.button:hover {  
-opacity: 0.7;
+.button:hover {
+    opacity: 0.7;
 }
 
 
-.button2 {background-color: #008CBA;} /* Blue */
+.button2 {
+    background-color: #008CBA;
+}
+
+/* Blue */
 
 #optagelse div {
     padding-top: 3%;
@@ -261,8 +266,9 @@ opacity: 0.7;
 }
 
 
-/*------------ Her slutter CSS for footer ------------*/
+/*------------ Her slutter CSS for optagelse ------------*/
 
+/*------------ Her starter CSS for footer ------------*/
 
 #footer {
     height: auto;
@@ -270,51 +276,52 @@ opacity: 0.7;
     padding: 2px;
 }
 
-    .fa {
- padding: 20px;
-  font-size:20px;
-  width: 20px;
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
     height: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px 2px;
-  border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+    border-radius: 50%;
 
-  
+
 }
 
 .fa-youtube {
-padding: 20px;
-  font-size:20px;
-  width: 20px;
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
     height: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px 2px;
-  border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+    border-radius: 50%;
 
 }
 
 
 a.fa.fa-instagram::before {
-    font-size:1.4em;
+    font-size: 1.4em;
 
 }
 
 a.fa.fa-youtube:before {
-    font-size:1.4em;
+    font-size: 1.4em;
 
 }
 
 a.fa.fa-facebook::before {
-    font-size:1.4em;
+    font-size: 1.4em;
 }
 
 
 
 
-#sociale_medier_ikoner {text-align: center;
-  
+#sociale_medier_ikoner {
+    text-align: center;
+
 }
 
 
@@ -328,24 +335,23 @@ a.fa.fa-facebook::before {
 
 
 .fa-facebook {
-  background: #9c845e;
-  color: white;
- 
- 
+    background: #9c845e;
+    color: white;
+
+
 }
 
-.fa-youtube {  background: #9c845e;
-  color: white;}
+.fa-youtube {
+    background: #9c845e;
+    color: white;
+}
 
 
 .fa-instagram {
-  background: #9c845e;
-  color: white;
+    background: #9c845e;
+    color: white;
 }
 
 
 
-/*------------ Her starter CSS for footer ------------*/
-
-
-
+/*------------ Her slutter CSS for footer ------------*/
