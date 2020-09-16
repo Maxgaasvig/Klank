@@ -35,25 +35,21 @@ body {
     width: 90%;
 }
 
-/*
-#mapButtons {
-    position: relative;
-}
-*/
 
-.mapButtons:hover{
+.mapButtons:hover {
     border: 5px solid black;
     opacity: 0.2;
 }
 
-.mapButtons{
+.mapButtons {
     position: absolute;
     border-radius: 50%;
     cursor: pointer;
-     transform: translate(-50px, -50px);
+    transform: translate(-50px, -50px);
     padding: 2.7%;
-    opacity: 0;   
+    opacity: 0;
 }
+
 #mapButton1 {
     left: 18.5%;
     top: 30%;
@@ -70,34 +66,53 @@ body {
 }
 
 
-#kort p{
-  position: absolute;
+#kort p {
+    position: absolute;
     transform: translate(-315%, 190%);
     font-size: 1.8em;
+<<<<<<< HEAD
 line-height: 1.5em;
      font-weight:bolder;
+=======
+    line-height: 1.5em;
+    color: black;
+    font-weight: 950;
+>>>>>>> master
 }
 
 
-#kort t{
-  position: absolute;
+#kort t {
+    position: absolute;
     transform: translate(40%, 430%);
     font-size: 1.8em;
+<<<<<<< HEAD
 line-height: 1.5em;
      font-weight:bolder;
     
 
 
+=======
+    line-height: 1.5em;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+>>>>>>> master
 }
 
-#kort o{
-  position: absolute;
+#kort o {
+    position: absolute;
     transform: translate(350%, 750%);
     font-size: 1.8em;
+<<<<<<< HEAD
 line-height: 1.5em;
     font-weight:bolder;
    
  
+=======
+    line-height: 1.5em;
+    color: black;
+    font-weight: bolder;
+>>>>>>> master
 }
 
 
@@ -137,18 +152,11 @@ line-height: 1.5em;
 
 }
 
-#myVideo {
-    width: 715px;
-    height: 340px;
-    padding: 1.5%;
-
-}
 
 #myVideo2 {
     width: 715px;
     height: 340px;
     margin-top: -4%;
-
 }
 
 
