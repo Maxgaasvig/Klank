@@ -223,7 +223,6 @@ body {
 }
 
 #forventningerContent {
-    padding-top: 6%;
     background-color: #eeeeee;
     padding-left: 5%;
 }
@@ -374,11 +373,8 @@ body {
 }
 
 #footer {
-        background-image: url(../images/mountain.png);
-    width: 100%;
-    height: 400px;
- 
-    background-size: 100% 100%;
+    
+
 }
 
 .fa {
@@ -464,13 +460,6 @@ a.fa.fa-facebook::before {
 
 
 
-
-<<<<<<< Updated upstream
-
-
-
-
-=======
 #race div {
   animation: glitch 1s linear infinite;
 }
@@ -532,4 +521,3 @@ a.fa.fa-facebook::before {
 
 
 
->>>>>>> Stashed changes
