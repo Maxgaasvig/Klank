@@ -2,8 +2,9 @@ body {
     margin: auto;
     font-family: 'Raleway', cursive;
     background: url(/images/baggrund.jpg);
-    background-size: contain;
-    background-position: center;
+    background-image: url(../images/baggrund.jpg);
+    background-size: cover;
+    background-position: 90%;
 }
 
 /*------------ Her starter CSS for intro video ------------*/
@@ -359,7 +360,7 @@ body {
 #optagelse div {
     padding-top: 3%;
     text-align: center;
-    padding-bottom: 5%;
+   
 }
 
 
@@ -373,8 +374,14 @@ body {
 }
 
 #footer {
+<<<<<<< HEAD
     
 
+=======
+    width: 100%;
+    height: 350px;
+    background-size: 100% 100%;
+>>>>>>> master
 }
 
 .fa {
@@ -422,7 +429,8 @@ a.fa.fa-facebook::before {
 
 #sociale_medier_ikoner {
     text-align: center;
-
+    margin-bottom: -5px;
+    padding-top: 15%;
 }
 
 
@@ -436,20 +444,20 @@ a.fa.fa-facebook::before {
 
 
 .fa-facebook {
-     background: #729e5d;
+     background-color:#eeeeee;
     color: #333333;
 
 
 }
 
 .fa-youtube {
-    background: #729d5c;
+    background: #eeeeee;
     color: #333333;
 }
 
 
 .fa-instagram {
-    background: #729d5c;
+    background: #eeeeee;
     color:#333333 ;
 }
 
