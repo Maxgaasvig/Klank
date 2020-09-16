@@ -49,7 +49,7 @@ var scrollbutton = document.getElementById("scrollbutton");
 
 // When you scroll past 2100px from the top of the document, the button will show itself, if below 2100px, the button is hidden
 function scrollFunction() {
-    if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
         scrollbutton.style.display = "block";
     } else {
         scrollbutton.style.display = "none";
@@ -63,7 +63,7 @@ window.onscroll = function () {
 // When the user clicks on the button, scroll to 1150px from the top of the document At the map.
 function topFunction() {
     document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 1150;
+    document.documentElement.scrollTop = 870;
 }
 
 
