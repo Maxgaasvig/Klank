@@ -341,7 +341,7 @@ body {
 
 
 .button2 {
-    background-color: #008CBA;
+    background-color: #333333;
 }
 
 /* Blue */
@@ -363,9 +363,11 @@ body {
 }
 
 #footer {
-    height: auto;
-    background-color: #333333;
-    padding: 2px;
+        background-image: url(../images/mountain.png);
+    width: 100%;
+    height: 400px;
+ 
+    background-size: 100% 100%;
 }
 
 .fa {
@@ -427,21 +429,21 @@ a.fa.fa-facebook::before {
 
 
 .fa-facebook {
-    background: #9c845e;
-    color: white;
+     background: #729e5d;
+    color: #333333;
 
 
 }
 
 .fa-youtube {
-    background: #9c845e;
-    color: white;
+    background: #729d5c;
+    color: #333333;
 }
 
 
 .fa-instagram {
-    background: #9c845e;
-    color: white;
+    background: #729d5c;
+    color:#333333 ;
 }
 
 
