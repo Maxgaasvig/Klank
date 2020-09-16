@@ -9,10 +9,10 @@ console.log('JavaScript from js/js.js: up and running!');
 
 // Disables the controls from the boomerang videos that autoplays and runs in loops.
 var boomrang1 = document.getElementById("boomerang1");
-boomrang1.controls =false;
+boomrang1.controls = false;
 
 var boomrang2 = document.getElementById("boomerang2");
-boomrang2.controls =false;
+boomrang2.controls = false;
 
 /*   -------------------------  Map Buttons  --------------------------------------     */
 
@@ -25,18 +25,18 @@ mapBtn2.addEventListener("click", mapbtn2Action);
 mapBtn3.addEventListener("click", mapbtn3Action);
 
 
-function mapbtn1Action(){
- location.href="#eleverne";  
+function mapbtn1Action() {
+    location.href = "#eleverne";
 }
 
 
-function mapbtn2Action(){
- location.href="#forventningerContent";  
+function mapbtn2Action() {
+    location.href = "#forventningerContent";
 }
 
 
-function mapbtn3Action(){
- location.href="#optagelse";  
+function mapbtn3Action() {
+    location.href = "#optagelse";
 }
 
 
