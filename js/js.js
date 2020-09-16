@@ -9,10 +9,10 @@ console.log('JavaScript from js/js.js: up and running!');
 
 // Disables the controls from the boomerang videos that autoplays and runs in loops.
 var boomrang1 = document.getElementById("boomerang1");
-boomrang1.controls =false;
+boomrang1.controls = false;
 
 var boomrang2 = document.getElementById("boomerang2");
-boomrang2.controls =false;
+boomrang2.controls = false;
 
 /*   -------------------------  Map Buttons  --------------------------------------     */
 
@@ -25,18 +25,18 @@ mapBtn2.addEventListener("click", mapbtn2Action);
 mapBtn3.addEventListener("click", mapbtn3Action);
 
 
-function mapbtn1Action(){
- location.href="#eleverne";  
+function mapbtn1Action() {
+    location.href = "#eleverne";
 }
 
 
-function mapbtn2Action(){
- location.href="#forventningerContent";  
+function mapbtn2Action() {
+    location.href = "#forventningerContent";
 }
 
 
-function mapbtn3Action(){
- location.href="#optagelse";  
+function mapbtn3Action() {
+    location.href = "#optagelse";
 }
 
 
@@ -67,5 +67,37 @@ function topFunction() {
 }
 
 
+
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3000;	// Time Between Switch
+	 
+// Image List
+images[0] = "images/slides1.jpg";
+images[1] = "images/slides2.jpg";
+images[2] = "images/slides3.jpg";
+images[3] = "images/slides4.jpg";
+
+
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
 
 
