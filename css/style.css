@@ -1,8 +1,4 @@
-/**
- * file: style.css
- * purpose: styles, animation etc
- * further development: meyer reset perhaps?
- **/
+
 
 body {
     margin: auto;
@@ -240,9 +236,15 @@ line-height: 1.5em;
 /*------------ Her slutter CSS for forventninger ------------*/
 
 
-/*------------ Her starter CSS for adventurerace ------------*/
+/*------------ Her starter CSS for slideshow ------------*/
 
-/*------------ Her slutter CSS for adventurerace ------------*/
+#slideshow {
+    justify-content: center;
+    display: flex;
+    padding-top: 5%;
+}
+
+/*------------ Her slutter CSS for slideshow ------------*/
 
 /*------------ Her starter CSS for back to top ------------*/
 
