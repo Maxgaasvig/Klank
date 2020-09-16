@@ -69,6 +69,33 @@ body {
     top: 55.5%;
 }
 
+
+#kort p{
+  position: absolute;
+    transform: translate(-315%, 190%);
+    font-size: 1.8em;
+line-height: 1.5em;
+color:black;}
+
+
+#kort t{
+  position: absolute;
+    transform: translate(40%, 430%);
+    font-size: 1.8em;
+line-height: 1.5em;
+color:black;
+       font-family: 'Raleway', sans-serif;
+}
+
+#kort o{
+  position: absolute;
+    transform: translate(350%, 750%);
+    font-size: 1.8em;
+line-height: 1.5em;
+color:black;}
+
+
+
 /*------------ Her slutter CSS for kort ------------*/
 
 
