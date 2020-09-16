@@ -238,10 +238,15 @@ line-height: 1.5em;
 
 /*------------ Her starter CSS for slideshow ------------*/
 
+#race {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom:3%;
+}
 #slideshow {
     justify-content: center;
     display: flex;
-    padding-top: 5%;
+    padding-top:5%;
 }
 
 /*------------ Her slutter CSS for slideshow ------------*/
@@ -442,3 +447,4 @@ a.fa.fa-facebook::before {
 
 
 /*------------ Her slutter CSS for footer ------------*/
+
