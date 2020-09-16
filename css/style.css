@@ -70,14 +70,11 @@ body {
     position: absolute;
     transform: translate(-315%, 190%);
     font-size: 1.8em;
-<<<<<<< HEAD
 line-height: 1.5em;
      font-weight:bolder;
-=======
     line-height: 1.5em;
     color: black;
     font-weight: 950;
->>>>>>> master
 }
 
 
@@ -85,34 +82,18 @@ line-height: 1.5em;
     position: absolute;
     transform: translate(40%, 430%);
     font-size: 1.8em;
-<<<<<<< HEAD
 line-height: 1.5em;
      font-weight:bolder;
     
-
-
-=======
-    line-height: 1.5em;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
->>>>>>> master
 }
 
 #kort o {
     position: absolute;
     transform: translate(350%, 750%);
     font-size: 1.8em;
-<<<<<<< HEAD
 line-height: 1.5em;
     font-weight:bolder;
-   
- 
-=======
-    line-height: 1.5em;
-    color: black;
-    font-weight: bolder;
->>>>>>> master
+
 }
 
 
