@@ -75,7 +75,8 @@ body {
     transform: translate(-315%, 190%);
     font-size: 1.8em;
 line-height: 1.5em;
-color:black;}
+     font-weight:bolder;
+}
 
 
 #kort t{
@@ -83,8 +84,10 @@ color:black;}
     transform: translate(40%, 430%);
     font-size: 1.8em;
 line-height: 1.5em;
-color:black;
-       font-family: 'Raleway', sans-serif;
+     font-weight:bolder;
+    
+
+
 }
 
 #kort o{
@@ -92,7 +95,10 @@ color:black;
     transform: translate(350%, 750%);
     font-size: 1.8em;
 line-height: 1.5em;
-color:black;}
+    font-weight:bolder;
+   
+ 
+}
 
 
 
