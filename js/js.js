@@ -14,6 +14,30 @@ boomrang1.controls =false;
 var boomrang2 = document.getElementById("boomerang2");
 boomrang2.controls =false;
 
+/*   -------------------------  Map Buttons  --------------------------------------     */
+
+var mapBtn1 = document.getElementById("mapButton1");
+var mapBtn2 = document.getElementById("mapButton2");
+var mapBtn3 = document.getElementById("mapButton3");
+
+mapBtn1.addEventListener("click", mapbtn1Action);
+mapBtn2.addEventListener("click", mapbtn2Action);
+mapBtn3.addEventListener("click", mapbtn3Action);
+
+
+function mapbtn1Action(){
+ location.href="#eleverne";  
+}
+
+
+function mapbtn2Action(){
+ location.href="#forventningerContent";  
+}
+
+
+function mapbtn3Action(){
+ location.href="#optagelse";  
+}
 
 
 /* Scroll button functions */
