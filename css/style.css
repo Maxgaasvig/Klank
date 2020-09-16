@@ -143,6 +143,7 @@ line-height: 1.5em;
 
 #eleverne {
     padding: 4%;
+    height:30%;
     margin-top: -4%;
     background-color: #eeeeee;
 }
@@ -214,6 +215,7 @@ line-height: 1.5em;
 #forventninger {
     display: flex;
     padding: 4%;
+ 
 }
 
 #forventninger p {
@@ -229,6 +231,7 @@ line-height: 1.5em;
 #forventningerContent {
     padding-top: 6%;
         background-color: #eeeeee;
+       height:60%;
 }
 
 
